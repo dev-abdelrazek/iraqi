@@ -127,12 +127,12 @@
                     </button>
                     <div class="navbar-collapse collapse justify-content-end" id="navbar-collapse-toggle-1">
                         <ul id="accordion" class="nav navbar-nav no-margin alt-font text-normal" data-in="fadeIn"
-                            data-out="fadeOut">
+                            data-out="fadeOut" style="align-items: flex-start;">
                             <!-- start menu item -->
                             <li class="dropdown megamenu-fw">
-                                <a href="./index.html">الرئيسية</a><i class="fas fa-angle-down dropdown-toggle"
-                                    data-toggle="dropdown" aria-hidden="true">
-
+                                <a href="./index.html" style="text-align: right; margin-right: 10px;">الرئيسية</a><i
+                                    class="fas fa-angle-right dropdown-toggle" data-toggle="dropdown"
+                                    aria-hidden="true">
                                 </i>
 
 
@@ -141,34 +141,17 @@
 
 
                             <!-- end menu item -->
-                            <li class="dropdown simple-dropdown"><a href="#abdelrazek">خدماتنا</a><i
-                                    class="fas fa-angle-down dropdown-toggle" data-toggle="dropdown"
+                            <li class="dropdown simple-dropdown"><a href="#services"
+                                    style="text-align: right; margin-right: 10px;">خدماتنا</a><i
+                                    class="fas fa-angle-right dropdown-toggle" data-toggle="dropdown"
                                     aria-hidden="true"></i>
                                 <!-- start sub menu -->
-                                <ul class="dropdown-menu" role="menu" style='text-align: initial;'>
 
-                                    <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown"
-                                            href="#design1" style="    font-size: 15px;">تصميم 1
-                                            <!--<i class="fas fa-angle-right"></i>-->
-                                        </a>
-                                    </li>
-                                    <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown"
-                                            href="#design2" style="    font-size: 15px;">تصميم 2
-                                            <!--<i class="fas fa-angle-right"></i>-->
-                                        </a>
-                                    </li>
-                                    <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#team"
-                                            style="    font-size: 15px;"> الفنيين
-                                            <!--<i class="fas fa-angle-right"></i>-->
-                                        </a>
-                                    </li>
-
-                                </ul>
                             </li>
                             <!-- 
                             <li class="dropdown megamenu-fw">
                                 <a href="http://www.Elaraky.com/ar/clients">عملائنا</a><i
-                                    class="fas fa-angle-down dropdown-toggle" data-toggle="dropdown" aria-hidden="true">
+                                    class="fas fa-angle-right dropdown-toggle" data-toggle="dropdown" aria-hidden="true">
 
                                 </i>
 
@@ -176,8 +159,9 @@
                             </li> -->
 
                             <li class="dropdown megamenu-fw">
-                                <a href="#contact">معلومات عنا </a><i class="fas fa-angle-down dropdown-toggle"
-                                    data-toggle="dropdown" aria-hidden="true">
+                                <a href="#contact" style="text-align: right; margin-right: 10px;">معلومات عنا </a><i
+                                    class="fas fa-angle-right dropdown-toggle" data-toggle="dropdown"
+                                    aria-hidden="true">
 
                                 </i>
 
@@ -186,7 +170,7 @@
                             <!-- 
                             <li class="dropdown megamenu-fw">
                                 <a href="http://www.Elaraky.com/ar/contact-us">اتصل بنا</a><i
-                                    class="fas fa-angle-down dropdown-toggle" data-toggle="dropdown" aria-hidden="true">
+                                    class="fas fa-angle-right dropdown-toggle" data-toggle="dropdown" aria-hidden="true">
 
                                 </i>
 
@@ -297,15 +281,15 @@
     </section>
     <!-- end slider section -->
 
-    <div class="btns my-5">
-        <a href="#design1" class="main-btn">تصميم 1</a><a href="#design2" class="main-btn">تصميم 2</a><a href="#team"
+    <div class="btns my-5" id="services">
+        <a href="#design1" class="main-btn">تصميم ١</a><a href="#design2" class="main-btn">تصميم ٢</a><a href="#team"
             class="main-btn">الفنيين
         </a>
     </div>
 
     <section class="design1">
 
-        <h3 style="text-align: center; margin: 35px 0;">تصميم 1</h3>
+        <!-- <h3 style="text-align: center; margin: 35px 0;">تصميم 1</h3> -->
         <div class="container designs-imgs">
 
             <img id="design1" src="./imgs/design_1/1.jpg" alt="">
@@ -326,7 +310,7 @@
     </section>
 
     <section class="design1">
-        <h3 style="text-align: center; margin: 35px 0;">تصميم 2</h3>
+        <!-- <h3 style="text-align: center; margin: 35px 0;">تصميم 2</h3> -->
 
         <div class="container designs-imgs">
             <img id="design2" src="./imgs/design_2/1.jpg" alt="">
@@ -349,7 +333,7 @@
     </section>
 
     <section id="team" class="design1">
-        <h3 style="text-align: center; margin: 35px 0;">الفنيين</h3>
+        <!-- <h3 style="text-align: center; margin: 35px 0;">الفنيين</h3> -->
 
         <div class="container designs-imgs">
             <img id="design3" src="./imgs/team/1.jpg" alt="">
@@ -413,7 +397,8 @@
                         <ul class="list-unstyled" style="text-align: center;">
                             <li class=""><a style="font-size: inherit; "
                                     href="https://www.facebook.com/Iraqi01012469934" target="_blank"
-                                    class="text-medium-gray text-small">Facebook</a></li>
+                                    class="text-medium-gray text-small"><i class="fab fa-facebook-f"
+                                        style="color: #fff; margin-left: 3rem;"></i></a></li>
                             <!-- <li class="w-50 float-left"><a href="https://www.pinterest.com/" target="_blank" class="text-medium-gray text-small">Pinterest</a></li>
                                 <li class="w-50 float-left"><a href="https://www.twitter.com/" target="_blank" class="text-medium-gray text-small">Twitter</a></li>
                                 <li class="w-50 float-left"><a href="https://www.linkedin.com/" target="_blank" class="text-medium-gray text-small">Linkedin</a></li>
