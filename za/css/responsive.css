@@ -4769,7 +4769,7 @@
   }
   .navbar-nav > li.dropdown > .fas {
     display: block;
-    position: absolute;
+    /* position: absolute; */
     right: 0px;
     top: 0;
     color: #fff;

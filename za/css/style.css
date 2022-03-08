@@ -51,6 +51,8 @@ Table of contents
   text-transform: uppercase;
   letter-spacing: 1.5px;
   transition: 0.5s all ease-in-out;
+  min-width: 8rem;
+  text-align: center;
 }
 
 .btns .main-btn:hover {
@@ -63,7 +65,16 @@ Table of contents
   grid-template-columns: 1fr 1fr;
   gap: 20px;
 }
+.dropdown i {
+  /* display: none !important; */
+}
 @media (max-width: 992px) {
+  .dropdown {
+    display: flex !important;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
   .designs-imgs {
     display: grid;
     grid-template-columns: 1fr;
@@ -77,9 +88,13 @@ Table of contents
     line-height: 50px !important;
   }
   .btns {
-    flex-direction: column;
     align-items: center;
-    gap: 20px;
+    gap: 0px;
+  }
+  .btns .main-btn {
+    min-width: 7rem;
+    padding: 8px 24px;
+    font-style: 14px;
   }
 }
 .designs-imgs img {
@@ -1633,6 +1648,7 @@ textarea.input-bg {
   transition-duration: 0.3s;
   transition-timing-function: ease-in-out;
   white-space: nowrap;
+  text-align: center;
 }
 .btn-primary,
 .btn-success,
